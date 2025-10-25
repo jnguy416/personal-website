@@ -62,16 +62,20 @@ hr {
 
 .hobby {
     display: flex;
-    justify-content: right;
-    margin-left: 20%;
-    margin-right: 10%;
+    justify-content: center;
 }
 
 .hobby img {
     padding-left: 1rem;
+    padding-right: 1rem;
     width: 10rem;
 }
 
 .hobby h3 {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
+}
+
+.hobby a {
+    font-style: italic;
+    color:black;
 }

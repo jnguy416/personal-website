@@ -32,7 +32,7 @@ nav ul li a:hover {
 }
 
 hr {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     margin-left: -.5rem;
     margin-right: -.5rem;
     height: .5rem; 
@@ -52,6 +52,8 @@ hr {
     margin-top: -1.25rem;
     margin-left: -.5rem;
     margin-right: -.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: -1rem;
     background-color: #6C91C2;
 }
 
@@ -78,4 +80,21 @@ hr {
 .hobby a {
     font-style: italic;
     color:black;
+}
+
+#experiences {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+.experience {
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
 }

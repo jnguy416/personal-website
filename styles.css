@@ -4,6 +4,11 @@ html {
     border-top-style: solid;
     background-color: #ECEBE4;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    /* border-bottom-color:#0A122A;
+    border-bottom-width: 2rem;
+    border-bottom-style: solid; */
 }
 
 nav {
@@ -57,10 +62,6 @@ hr {
     background-color: #6C91C2;
 }
 
-#aboutMe h2 {
-    padding-top:2rem;
-    padding-left: 5rem;
-}
 
 .hobby {
     display: flex;
@@ -68,8 +69,8 @@ hr {
 }
 
 .hobby img {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     width: 10rem;
 }
 
@@ -87,14 +88,36 @@ hr {
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;
-    margin: auto;
+    margin-bottom: 4rem;
 }
 
 h2 {
+    padding-top:2rem;
     text-align: center;
 }
+
 .experience {
-    padding: 1rem;
-    width: 70%;
+    width: 30%;
     margin: auto;
+}
+
+footer {
+    display:flex;
+    background-color: #0A122A;
+    height: 7rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: -1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #ECEBE4;
+    font-size: 1.1rem;
+}
+
+
+#intro h2 {
+    text-align: left;
 }
